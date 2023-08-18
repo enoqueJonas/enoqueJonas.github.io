@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 327px;
+}
+
+.contact-form input {
+    background: #fff;
+    border: 1px solid #cfd8dc;
+    height: 35px;
+    margin-bottom: 20px;
+    width: 327px;
+}
+
+.contact-form textarea {
+    background: #fff;
+    border: 1px solid #cfd8dc;
+    height: 110px;
+    width: 327px;
+}
+
+.btn-get-in-touch {
+    justify-content: center;
+    width: 140px;
+    height: 40px;
+    border: 2.2px solid #fff;
+    margin-top: 20px;
+    background: transparent;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+button:hover,
+.btn-get-in-touch:hover,
+#btn-get-resume:hover {
+  color: #02aab0;
+  background: #fff;
+  box-shadow: 0 8px 16px rgb(64 83 252 / 24%);
+}
+
+.section-title {
+    margin-bottom: 40px;
+}
+
+#shadow-host-companion {
+    display: none;
+}
