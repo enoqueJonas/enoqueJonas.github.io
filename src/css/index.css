@@ -54,5 +54,9 @@ button:hover,
 }
 
 .section-title {
-    margin-bottom: 0;
+    margin-bottom: 40px;
+}
+
+#shadow-host-companion {
+    display: none;
 }
